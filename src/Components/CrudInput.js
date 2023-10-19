@@ -1,4 +1,4 @@
-export const CrudInput = ({ label, value, onChange }) => {
+const CrudInput = ({ label, value, onChange }) => {
   return (
     <>
       <label className="form-label">{label}</label>

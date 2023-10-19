@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ActionDropdown from "./ActionDropdown";
 
 const CrudTable = ({ header, data, path }) => {
@@ -16,9 +15,6 @@ const CrudTable = ({ header, data, path }) => {
       <table>
         <thead>
           <tr>
-            <th>
-              <Link to={path}>New</Link>
-            </th>
             {header.map((element, index) => (
               <th key={index}>{element}</th>
             ))}

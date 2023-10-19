@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Menu from "./Menu";
-import VideogamesCrud from "./VideogamesCrud";
-import CellphonesCrud from "./CellphonesCrud";
+import Home from "./Views/Home";
+import Menu from "./Components/Menu";
+import VideogamesCrud from "./Views/VideogamesCrud";
+import CellphonesCrud from "./Views/CellphonesCrud";
 export const App = () => {
   return (
     <BrowserRouter>

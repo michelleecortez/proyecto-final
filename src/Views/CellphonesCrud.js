@@ -1,4 +1,4 @@
-import CrudTable from "./CrudTable";
+import CrudTable from "../Components/CrudTable";
 
 const CellphonesCrud = () => {
   const cel = [
