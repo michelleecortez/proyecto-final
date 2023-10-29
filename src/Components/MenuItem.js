@@ -3,7 +3,7 @@ const MenuItem = ({ path, label }) => {
   return (
     <NavLink
       to={path}
-      className={({ isActive }) => (isActive ? "bg-danger" : "bg-white")}
+      className={({ isActive }) => (isActive ? "bg-warning" : "bg-white")}
       end
     >
       {label}
