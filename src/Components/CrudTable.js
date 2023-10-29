@@ -29,7 +29,7 @@ const CrudTable = ({ header, data, path }) => {
                 ))}
                 <td>
                   <ActionDropdown
-                    actions={onSetActions(Object.values(item)[0])}
+                    actions={onSetActions(Object.values(item)[0])} 
                   />
                 </td>
               </tr>
